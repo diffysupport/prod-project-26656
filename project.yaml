@@ -1,0 +1,112 @@
+basic:
+    name: 'https://www.advansix.com/'
+    environments:
+        production: 'https://www.advansix.com/'
+        staging: 'https://q3y0pe2vp4.wpdns.site/'
+        development: ''
+    basicAuth:
+        production: { user: '', password: '' }
+        staging: { user: '', password: '' }
+        development: null
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - /
+        - /industries
+        - /industries/adhesives-sealants
+        - /industries/agriculture-feed
+        - /industries/automotive-transportation
+        - /industries/building-construction
+        - /industries/consumer-goods
+        - /industries/electrical-electronics
+        - /industries/food-nutrition
+        - /industries/healthcare-pharma
+        - /industries/industrial
+        - /industries/paints-coatings
+        - /industries/personal-care
+        - /industries/packaging
+        - /industries/printing
+        - /solutions
+        - /solutions/chemical-intermediates
+        - /solutions/chemical-intermediates/shipping-logistics
+        - /solutions/nylon-solutions
+        - /solutions/plant-nutrients
+        - /solutions/plant-nutrients/why-ammonium-sulfate
+        - /solutions/plant-nutrients/crop-yield-research
+        - /solutions/plant-nutrients/ask-the-agronomist
+        - /solutions/plant-nutrients/ammonium-sulfate-soybeans
+        - /solutions/plant-nutrients/recursos-espanol
+        - /solutions/plant-nutrients/recursos-portugueses
+        - /people-careers
+        - /people-careers/work-at-advansix
+        - /people-careers/work-at-advansix/finance
+        - /people-careers/work-at-advansix/human-resources-communications
+        - /people-careers/work-at-advansix/legal-compliance
+        - /people-careers/work-at-advansix/information-technology
+        - /people-careers/work-at-advansix/health-safety-environment
+        - /people-careers/work-at-advansix/research-development
+        - /people-careers/work-at-advansix/engineering
+        - /people-careers/work-at-advansix/operations
+        - /people-careers/work-at-advansix/nylon-solutions
+        - /people-careers/work-at-advansix/chemical-intermediates
+        - /people-careers/work-at-advansix/plant-nutrients
+        - /people-careers/life-at-advansix
+        - /people-careers/equity-diversity-and-inclusion
+        - /people-careers/job-search
+        - /newsroom
+        - /about
+        - /about/purpose
+        - /about/leadership
+        - /about/board-of-directors
+        - /about/community-engagement
+        - /about/manufacturing-sites
+        - /about/manufacturing-sites/frankford-pa
+        - /about/manufacturing-sites/chesterfield-va
+        - /about/manufacturing-sites/hopewell-va
+        - /about/manufacturing-sites/bucks-al
+        - /about/manufacturing-sites/portsmouth-va
+        - /about/manufacturing-sites/sustainability
+        - /esg-governance
+        - /about/manufacturing-sites/sustainability-old/responsible-care
+        - /contact
+        - /privacy-statement
+        - /terms-conditions
+        - /cookie-policy
+        - /opt-out-preferences
+        - '/?page_id=324'
+        - /celebrating-this-years-winners-of-the-advansix-stem-scholarship
+        - /advansix-announces-first-quarter-2025-financial-results
+        - /volunteers-bring-hope-to-residents-in-need-in-new-jersey-and-virginia
+        - /advansix-files-patent-infringement-lawsuit-against-arxada-group-companies
+        - /every-step-counts-supporting-trails-wellness-and-community
+        - /the-living-safety-leadership-award
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    delay: 10
+    scroll: false
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    sensitivity: 30
+    night_mode: false
+    retina_images: false
+    single_ip: false
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
